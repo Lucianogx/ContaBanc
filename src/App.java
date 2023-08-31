@@ -17,7 +17,7 @@ public class App {
         cliente1.setNumero(scanner.nextInt());
 
         System.out.println("Prezado cliente " + cliente1.getCliente() + ", obrigado por criar uma conta em nosso banco, sua agência é " + cliente1.getAgencia() + ", conta " + cliente1.getNumero() + " e seu saldo " + cliente1.getSaldo() + " já está disponível para saque.");
-        
+
 
     }
 }
