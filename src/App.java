@@ -8,13 +8,13 @@ public class App {
         Scanner scanner = new Scanner(System.in).useLocale(Locale.US);
 
         System.out.println("Prezado cliente, informe seu nome:");
-        String nomeCliente = cliente1.setCliente(scanner.next());
+        cliente1.setCliente(scanner.next());
 
         System.out.println("Informe sua agência (000-0)");
-        String agencia = cliente1.setAgencia(scanner.next());
+        cliente1.setAgencia(scanner.next());
 
         System.out.println("Informe o número da conta (0000)");
-        int numeroConta = cliente1.setNumero(scanner.nextInt());
+        cliente1.setNumero(scanner.nextInt());
 
         System.out.println("Prezado cliente " + cliente1.getCliente() + ", obrigado por criar uma conta em nosso banco, sua agência é " + cliente1.getAgencia() + ", conta " + cliente1.getNumero() + " e seu saldo " + cliente1.getSaldo() + " já está disponível para saque.");
         
