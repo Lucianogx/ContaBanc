@@ -1,7 +1,7 @@
 import java.util.Locale;
 import java.util.Scanner;
 
-public class App {
+public class Conta {
 
     public static void main(String[] args) throws Exception {
         DadosClientes cliente1 = new DadosClientes();
